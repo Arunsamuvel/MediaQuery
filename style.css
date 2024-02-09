@@ -1,0 +1,26 @@
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.container1 {
+  border: 1px solid burlywood;
+  background-color: rgb(231, 231, 158);
+}
+.container1 input {
+  background-color: green;
+  padding: 10px;
+}
+@media (max-width: 500px) {
+  .container1 img {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  #container {
+    display: flex;
+    flex-direction: column;
+  }
+}
